@@ -1,0 +1,101 @@
+
+*{box-sizing: border-box;} 
+
+body{
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#sfondocontrasparenza{
+    height: 730px;
+    width: 1080px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+#posizionelogo {
+    text-align: center;
+    padding-top: 85px;
+    
+}
+#titoloalto {
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+    font-weight: 50px;
+    color: rgb(0, 221, 0);
+    font-family: 'Poppins', sans-serif;
+}
+#barranav {
+    height: 40px;
+    width: 860px;
+    background-color:rgb(0, 221, 0);
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 52px;
+}
+
+.monopattino{
+    color: white;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 30px;
+}   
+.via{
+    color: white;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 42px;
+    font-size: small;
+}   
+.statocarica{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 12px;
+    font-size: small;
+    /* non sono riuscito a capire il motivo per cui il contenuto dell'elemento rimanga perfettamente in linea pur non utilizzando il margin-left, nel dubbio l' ho tolto.*/
+}
+#barracarica1 {
+    height: 30px;
+    width: 330px;
+    background-color: rgb(245, 180, 83);
+    position: relative;
+    bottom: 22px;
+    border-radius: 6px;
+    /* non sono riuscito a capire il motivo per cui il contenuto dell'elemento rimanga perfettamente in linea pur non utilizzando il margin-left, nel dubbio l ho tolto.*/
+    }
+#barracarica2 {
+    height: 30px;
+    width: 520px;
+    background-color: rgb(30, 195, 30);
+    position: relative;
+    bottom: 22px;
+    border-radius: 6px;
+    /* non sono riuscito a capire il motivo per cui il contenuto dell'elemento rimanga perfettamente in linea pur non utilizzando il margin-left, nel dubbio l ho tolto.*/
+}
+#barracarica3 {
+    height: 30px;
+    width: 110px;
+    background-color: rgb(190, 65,65);
+    position: relative;
+    bottom: 22px;
+    border-radius: 6px;
+    /* non sono riuscito a capire il motivo per cui il contenuto dell'elemento rimanga perfettamente in linea pur non utilizzando il margin-left, nel dubbio l ho tolto.*/
+}
+    
+/* Ho provato a mantenere una struttura corretta e comprensibile nel codice.
+   Penso di averne scritto un po' troppo dovrei fare un po' piu' di pratica.
+   Ho utilizzato position per adeguare all' originale gli spazi tra gli elementi.
+   Spero l' esercizio quantomeno vi possa soddisfare, mi impegnero' a continuare il 
+   Fundamentals camp e giustamente inziare a portarmi avanti anche in autonomia.
+   Grazie in anticipo.
+   Cordialita', Davide Fois.
+*/ 
